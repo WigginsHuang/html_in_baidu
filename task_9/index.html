@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+    *{padding: 0;margin: 0;border:0;}
+    body{width: 100%;}
+
+  @media (max-width: 640px){
+	.wrap {
+		justify-content: space-between;
+
+	}
+	.box{margin: 10px}
+	.box4 {
+		order: -1;
+	}
+}
+@media (min-width: 641px){
+	.wrap {
+		justify-content: space-between;
+		align-items: center;
+	}	
+}
+
+    .warp{display: flex;align-items: center;justify-content: space-between;padding:20px;position: relative;}
+    .box{border:1px solid #f00;}
+    .box1{height: 120px;width: 150px;}
+    .box2{height: 100px;width: 150px;}
+    .box3{height: 40px;width: 150px;}
+    .box4{height: 200px;width: 150px;border:1px solid blue !important;}
+	</style>
+</head>
+<body>
+<div class="warp">
+	<div class="box box1"></div>
+	<div class="box box2"></div>
+	<div class="box box3"></div>
+	<div class="box box4"></div>
+	</div>
+</body>
+</html>

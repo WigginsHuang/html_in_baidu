@@ -1,0 +1,50 @@
+*{margin: 0;padding: 0;border: 0}
+html,body{background-color: #dedede;width: 100%}
+
+
+.heads a{text-decoration: none;color: #fff}
+img{max-width: 300px;max-height: 300px}
+.clr{clear: both;}
+.heads{width: 100%;height:60px;background-color: #333;position: relative;}
+
+.logo{position: absolute;top:-30px;left:0; margin-bottom: 5px; float: left; margin-left:20px;}
+.link{position: absolute;top:0;right :10px;line-height: 60px}
+.link li{float: left;margin-right: 5px;list-style: none}
+.link a{display: block;transition: all 1s;
+-moz-transition: all 1s; 
+-webkit-transition: all 1s; 
+-o-transition: all 1s; }
+.link a:hover{background-color: #fff; color: #000}
+.con{background-color: #fff;  box-sizing:border-box; margin: 10px;padding: 30px;
+	box-shadow: 5px 5px #9f9f9f;line-height: 2em;}
+.cons{background-color: #fff;  box-sizing:border-box; margin: 10px;padding: 30px;
+ box-shadow: 5px 5px #9f9f9f;line-height: 2em;}
+.km p{line-height: 3em;text-indent: 2em;}
+.con h1{margin-bottom: 5px}
+.cssa{display: inline-flex;;width:100%;position: relative;}
+.cont{display: inline-block;width:70%;display: absolute;left: 0;min-width:0}
+.rr{ display: inline-block;position:relative;right: 0;width:400px; margin-left: 20px}
+.imgs img{margin-bottom: 0; max-width: 150px;max-height:150px;float: left;}
+.imgs{padding:10px;margin:10px;border:1px solid grey; 
+	display: inline-block;line-height: 2em; text-align: center;}
+.frist h2,.frist h3{color: #dcdcdc;margin: 10px 0}
+.ranking{margin-left: 30px; margin-bottom:10px;}
+.tab{text-align: center;}
+.tab td{border: 1px solid #e9e9e9;}
+.tab th{border: 1px solid #e9e9e9;background-color: #333; color:#fff; width:30%;}
+.forms{margin-bottom: 10px}
+.froms span{width:100%;float: left;text-align: right;}
+.fi h3{border-left: 2px solid #999; padding-left: 10px}
+.formx{ width:310px;height: 300px;display: inline-block;padding:10px;margin:10px;}
+.fi input{border: 1px solid #999; height: 20px}
+.fi p{display: table-cell}
+.forms{display:table-row;margin-top:50px;}
+.zi{padding-top: 0;text-align: right; vertical-align:top;}
+.inp{ padding-left: 10px;  }
+.raa{ padding-top: 5px }
+select{border: 1px solid #999}
+textarea{border: 1px solid #999}
+#fir{width:100%;padding-top: 10px;padding-bottom:25px;
+	background-color: #3355d0;border-radius: 20px;color: #fff; margin-top: 10px}
+.foot{text-align: center;box-sizing: border-box;padding-top:20px;color: #fff;
+width: 100%;height:60px;background-color: #333;position: relative;top: 0}	

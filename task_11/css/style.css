@@ -1,0 +1,81 @@
+*{border:0;padding:0;margin:0}
+
+.cl{width: 100%;height: 100%;align-items: center;display: flex; flex-flow: column nowrap;
+;box-sizing: border-box;padding-bottom:100px}
+table th{background-color: #000;color: #fff}
+ table tbody tr:nth-child(2n){
+
+background-color: #ccc
+
+ }
+table tbody tr:nth-child(1),
+table tbody tr:nth-child(2),
+table tbody tr:nth-child(3){
+
+color: #f00
+
+}
+.input-1{margin-top: 20px}
+.input-1 input{border:1px solid #ccc;width: 80px;transition: all .5s}
+.input-1 input:focus{
+
+width:200px
+
+}
+.cont{width:500px;height: 300px;
+	margin-top: 20px;
+	position: relative;
+	overflow:hidden;
+
+    }
+.cont-a{}
+.play-nav{
+    position: absolute;
+    z-index: 100;bottom: 0;right: 0;
+	display:inline-block;
+	text-decoration: none;width: 30px;
+	height: 30px;
+	background-color: #999;
+	line-height: 30px;
+	text-align: center;
+	color: #fff
+}
+.play-nav:nth-child(1){margin-right: 90px}
+.play-nav:nth-child(2){margin-right: 45px}
+.cot{height: 300px;width: 500px}    
+.cont-1{background-color: #000000;}
+.cont-2{background-color: #0000FF;}
+.tt{height: 300px;display: flex;position: absolute;
+	 animation: mymove 10s ease infinite;transition: all 0.5s;
+	}
+.play-nav:hover{background-color: #ccc;animation-play-state: paused;
+-webkit-animation-play-state: paused;
+}
+.play-nav:hover ~.tt{animation-play-state: paused;}
+
+.play-nav:nth-child(1):hover ~.tt { animation: move3 .9s ease-out forwards;transform:translateX(0) }
+.play-nav:nth-child(2):hover ~.tt { animation: move1 .9s ease-out forwards;transform:translateX(-250px) }
+.play-nav:nth-child(3):hover ~.tt { animation: move2 .9s ease-out forwards;transform:translateX(-500px) }
+
+@keyframes mymove
+{
+0%{transform:translateX(0)}
+33%{transform:translateX(-250px); }
+66%{transform:translateX(-500px);}
+100%{transform:translateX(0)}
+}
+@keyframes move1
+{ 
+0%{transform:translateX(0) }
+100%{transform:translateX(-250px)}
+}
+@keyframes move2
+{ 
+0%{transform:translateX(0) }
+100%{transform:translateX(-500px)}
+}
+@keyframes move3
+{ 
+0%{transform:translateX(0) }
+100%{transform:translateX(0)}
+}
